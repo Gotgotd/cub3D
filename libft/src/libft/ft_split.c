@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_split.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: maax <maax@student.42.fr>                  +#+  +:+       +#+        */
+/*   By: malauzie <malauzie@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/09 12:36:22 by malauzie          #+#    #+#             */
-/*   Updated: 2024/02/01 10:28:02 by maax             ###   ########.fr       */
+/*   Updated: 2024/07/23 15:48:01 by malauzie         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,7 +39,8 @@ static int	count_words(char const *s, char c)
 	}
 	return (count_words);
 }
-static char **fill_tab(char const *s, char c, char **tab, int nb_words)
+
+static char	**fill_tab(char const *s, char c, char **tab, int nb_words)
 {
 	int	i;
 	int	j;
